@@ -78,7 +78,7 @@ def main():
         artifact.set_position(position)
         artifact.set_message(message)
         cast.add_actor("artifacts", artifact)
-    
+    #test
     # start the game
     keyboard_service = KeyboardService(CELL_SIZE)
     video_service = VideoService(CAPTION, MAX_X, MAX_Y, CELL_SIZE, FRAME_RATE)
